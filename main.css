@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Peddana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@1,600&display=swap');
+
+h1{
+	text-align: center;
+	font-family: 'Cinzel', serif;
+	font-size: 45px;
+	text-shadow: 2px 2px #FF0000;
+}
+
+h3{
+	text-align: center;
+	text-shadow: 2px 2px #FF0000;
+}
+
+.headline{
+font-size: 45px;
+padding-top: 200px;
+padding-left: 575px;
+padding-bottom: 200px;
+font-family: 'Peddana', serif;
+text-shadow: 2px 2px #FF0000;
+}
+
+.cen{
+	height: 600px;
+	width: 600px;
+}
+
+img{
+	width: 400px;
+	height: 400px;
+}
+
+body {
+    background-image: url("https://clickamericana.com/wp-content/uploads/Vintage-Edwardian-wallpaper-samples-from-1906-31.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+#pic{
+	height: 400px;
+	width: 400px;
+	border: 2px solid black;
+  	border-radius: 10px;
+  	margin: 0 auto;
+}
+
+#time{
+	height: 520px;
+	width: 570px;
+	background-color: #556B2F;
+	color: white;
+	font-family: 'Piazzolla', sans-serif;
+	font-size: 20px;
+	text-shadow: 2px 2px #FF0000;
+	border: solid black 3px;
+	border-radius: 5px;
+	margin: 0 auto;
+}
+table, th, td {
+  border: 3px solid black;
+  height: 50px;
+  width: 300px;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+hr{
+	border: black solid 2px;
+}
+
+#tab{
+	display: flex;
+	justify-content: center;
+}
+
+.move{
+  width: 400px;
+  height: 400px;
+  border: 3px solid #73AD21;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.right{
+	font-family: 'Sansita Swashed', cursive;
+	font-size: 16px;
+	color: black;
+	text-shadow: 2px 2px #FF0000;
+}
+
+.lp{
+	font-size: 30px;
+	color: black;
+	text-shadow: 2px 2px #FF0000;
+}
+
+#footer{
+    width: 350px;
+    height: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	color: black;
+	text-transform: uppercase;
+	border: solid;
+	padding-top: 1px;
+	border-radius: 10px;
+	text-align: center;
+	font-family: 'Cinzel', serif;
+	font-size: 20px;
+	text-shadow: 2px 2px #FF0000;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("https://cdn.hipwallpaper.com/i/49/83/zXWirq.jpg");
+
+  /* Set a specific height */
+  min-height: 600px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2 {
+  /* The image used */
+  background-image: url("https://www.adelphipaperhangings.com/wp-content/uploads/2018/12/ReveillonDamaskA-952x1024.jpg");
+
+  /* Set a specific height */
+  min-height: 600px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
